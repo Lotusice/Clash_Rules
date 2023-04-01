@@ -49,3 +49,6 @@ https://github.com/Wzieee/custom-network-rules
 
 参考：
 https://docs.cfw.lbyczf.com/contents/ui/profiles/rules.html
+
+在线订阅转换：
+https://acl4ssr-sub.github.io
