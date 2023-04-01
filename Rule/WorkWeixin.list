@@ -1,0 +1,106 @@
+# NAME: workweixin
+
+# 企业微信客户端短连接，登录、拉组织架构等功能
+DOMAIN,i.work.weixin.qq.com
+
+# 企业微信客户端长连接，消息收发等功能
+DOMAIN,gap.work.weixin.qq.com
+
+# 企业微信头像、logo以及非聊天图片
+DOMAIN,wework.qpic.cn
+DOMAIN,p.qlogo.cn
+DOMAIN,p.qpic.cn
+DOMAIN,shp.qpic.cn
+DOMAIN,wx.qlogo.cn
+
+# 企业微信客户端聊天收发超大文件(大于20M)，审批附件、图文消息附件等功能
+DOMAIN,szfront.wxwork.qq.com
+DOMAIN,hkfront.wxwork.qq.com
+DOMAIN,shfront.wxwork.qq.com
+DOMAIN,cqfront.wxwork.qq.com
+DOMAIN,tjfront.wxwork.qq.com
+
+# 企业微信WEB管理端
+DOMAIN,work.weixin.qq.com
+DOMAIN,localhost.work.weixin.qq.com
+DOMAIN,wwcdn.weixin.qq.com
+DOMAIN,long.open.weixin.qq.com
+DOMAIN,res.wx.qq.com
+DOMAIN,open.weixin.qq.com
+DOMAIN,dldir1.qq.com
+DOMAIN,vm.gtimg.cn
+DOMAIN,js.aq.qq.com
+
+# 企业微信客户端应用功能，审批，日报等
+DOMAIN,app.work.weixin.qq.com
+
+# 企业微信第三方API
+DOMAIN,qyapi.weixin.qq.com
+
+# 企业微信图文消息，应用市场等
+DOMAIN,login.work.weixin.qq.com
+DOMAIN,open.work.weixin.qq.com
+
+# 企业微信客户端日志上报
+DOMAIN,oss.mail.qq.com
+
+# 企业微信静态CDN资源
+DOMAIN,wework.qpic.cn
+DOMAIN,rescdn.qqmail.com
+DOMAIN,wwcdn.weixin.qq.com
+
+# 企业微信客户端下载微信互通的文件图片
+DOMAIN,imunion.weixin.qq.com
+
+# 企业微信微文档、微盘功能
+DOMAIN,hkfront.wxwork.qq.com
+DOMAIN,wx.mail.qq.com
+DOMAIN,shfront.wxwork.qq.com
+DOMAIN,drive.weixin.qq.com
+DOMAIN,cqfront.wxwork.qq.com
+DOMAIN,szfront.wxwork.qq.com
+DOMAIN,doc.weixin.qq.com
+DOMAIN,tjfront.wxwork.qq.com
+DOMAIN,sz-btfs-v2-up.wework.ftn.qq.com
+DOMAIN,sz-btfs-v2-down.wework.ftn.qq.com
+DOMAIN,sz-btfs-v2-down.wework.ftn.qq.com
+DOMAIN,sh-btfs-v2-up.wework.ftn.qq.com
+DOMAIN,sh-btfs-v2-down.wework.ftn.qq.com
+DOMAIN,wp_ftn.preview.qpic.cn
+DOMAIN,weboffice.weixin.qq.com
+DOMAIN,wdoc-75389.picgzc.qpic.cn
+DOMAIN,wdcdn.qpic.cn
+DOMAIN,tencent-doc.cdn-go.cn
+DOMAIN,cdn-go.cn
+DOMAIN,alloyteam-cdn.cdn-go.cn
+DOMAIN,alloyreport.cdn-go.cn
+DOMAIN,docs.idqqimg.com
+DOMAIN,pub.idqqimg.com
+DOMAIN,docs.gtimg.com
+DOMAIN,rescdn.qqmail.com
+DOMAIN,stdl.qq.com
+DOMAIN,s.url.cn
+DOMAIN,merge.report.url.cn
+DOMAIN,docrp.weixin.com
+DOMAIN,tpstelemetry.tencent.com
+
+# 企业微信客户端绑定企业邮箱/QQ邮箱及收发信
+DOMAIN,qqmail.work.weixin.qq.com
+DOMAIN,mail.work.weixin.qq.com
+
+# 企业微信客户端VOIP语音视频、远程协助、会议信令功能
+DOMAIN,long.open.wecall.qq.com
+DOMAIN,short.open.wecall.qq.com
+
+# 企业微信客户端安装包下载/更新
+DOMAIN,dldir1.qq.com
+
+# 企业微信直播
+DOMAIN,live.work.weixin.qq.com
+DOMAIN,livepush.wxworklive.com
+DOMAIN,liveplay.wxworklive.com
+DOMAIN,liveplayx.wxworklive.com
+DOMAIN,cloud.tim.qq.com
+
+# 企业微信开发者社区
+DOMAIN,developer.work.weixin.qq.com

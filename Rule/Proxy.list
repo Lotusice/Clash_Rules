@@ -1,0 +1,4 @@
+# NAME: Proxy
+# 部分走proxy规则
+
+DOMAIN-SUFFIX,steamcommunity.com
