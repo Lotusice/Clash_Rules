@@ -17,7 +17,7 @@ overwrite_original_rules=true
 
 0. 上面3行代码别忘了，参考上面，或者参考我的完整文件
 1. ;是省略号
-2. ruleset定义规则，ruleset=规则名字,规则地址
+2.  ruleset定义规则，ruleset=规则名字,规则地址
 3. custom_proxy_group定义分流策略组和节点策略组，custom_proxy_group=策略组名字`选择方式`[]其他策略组1`[]其他策略组2
 4. 策略组可以引用其他策略组，使用`分割，[]表示引用其他策略组
 5. 选择方式指手动select，延迟检测url-tes后面跟延迟检测网址
