@@ -10,7 +10,9 @@
 # ini 配置说明：
 
 [custom] 
+
 enable_rule_generator=true
+
 overwrite_original_rules=true
 
 0. 上面3行代码别忘了，参考上面，或者参考我的完整文件
@@ -43,6 +45,7 @@ overwrite_original_rules=true
 
 来源：
 https://github.com/Fndroid/clash_for_windows_pkg/issues/2729
+
 https://github.com/Wzieee/custom-network-rules
 
 参考：
