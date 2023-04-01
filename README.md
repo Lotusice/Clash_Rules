@@ -22,7 +22,7 @@
    6. .*是正则语法，代表匹配全部节点
    7. 定义节点策略组时候，可以使用正则：custom_proxy_group=🇰🇷 韩国`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
    8. 上面url-test后面跟的就是正则匹配，匹配节点名字带其中任何一个关键字的节点。
-   9. 🚀🎥这种emoji符号可用可不用，只要ruleset和custom-proxy-group用的名字一直就行，如果导入clash提示proxy not found，大概率二者名字不一致。
+   9. 🚀🎥这种emoji符号可用可不用，只要ruleset和custom-proxy-group用的名字一致就行，如果导入clash提示proxy not found，大概率二者名字不一致。
    10. 🇸🇬 🇨🇳 这种是国旗emoji，需要的话可以自己网上找
    ```
 
