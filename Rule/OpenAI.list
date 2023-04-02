@@ -1,8 +1,9 @@
 # NAME: OpenAi
 
-DOMAIN-SUFFIX, openai.com
-DOMAIN-SUFFIX, ai.com
-DOMAIN, cdn.auth0.com
-DOMAIN, openaiapi-site.azureedge.net
-DOMAIN-SUFFIX, identrust.com
-DOMAIN, challenges.cloudflare.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN,cdn.auth0.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,identrust.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,platform.openai.com
