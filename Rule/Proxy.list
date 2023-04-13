@@ -7,3 +7,5 @@ DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN,store.steampowered.com
 # OneDrive个人
 DOMAIN,onedrive.live.com
+# OneDrive个人照片
+DOMAIN,photos.onedrive.com
