@@ -5,3 +5,5 @@
 DOMAIN-SUFFIX,steamcommunity.com
 # Steam商店
 DOMAIN,store.steampowered.com
+# OneDrive个人
+DOMAIN,onedrive.live.com
