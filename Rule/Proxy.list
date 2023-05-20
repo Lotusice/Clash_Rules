@@ -5,7 +5,11 @@
 DOMAIN-SUFFIX,steamcommunity.com
 # Steam商店
 DOMAIN,store.steampowered.com
+
 # OneDrive个人
 DOMAIN,onedrive.live.com
 # OneDrive个人照片
 DOMAIN,photos.onedrive.com
+
+# 微软TTS
+DOMAIN,speech.microsoft.com
