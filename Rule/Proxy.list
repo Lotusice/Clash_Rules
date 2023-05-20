@@ -12,4 +12,4 @@ DOMAIN,onedrive.live.com
 DOMAIN,photos.onedrive.com
 
 # 微软TTS
-DOMAIN,speech.microsoft.com
+DOMAIN-SUFFIX,speech.microsoft.com
