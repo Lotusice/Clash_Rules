@@ -9,9 +9,13 @@ p: &p {type: http, interval: 3600, health-check: {enable: true, url: https://www
 
 # url 里填写自己的订阅,名称不能重复
 proxy-providers:
-  myproxy:
+  provider1:
     <<: *p
-    url: "xxxxxxx"
+    url: ""
+
+  provider2:
+    <<: *p
+    url: "
 
 
 ipv6: true
