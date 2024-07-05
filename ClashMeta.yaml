@@ -17,7 +17,6 @@ proxy-providers:
     <<: *p
     url: "
 
-
 ipv6: true
 allow-lan: true
 mixed-port: 7890
