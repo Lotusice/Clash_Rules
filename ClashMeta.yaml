@@ -142,7 +142,9 @@ rules:
 
 rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: yaml}
+  # 这里定义了一个锚点 &ip，其内容是一个 YAML 哈希表，包含了 IP 规则的更新配置信息。
   domain: &domain {type: http, interval: 86400, behavior: domain, format: yaml}
+  # 这里定义了一个锚点 &domain，其内容是一个 YAML 哈希表，包含了域名规则的更新配置信息。
 rule-providers:
   private:
     <<: *domain
