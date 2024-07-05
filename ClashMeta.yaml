@@ -1,9 +1,11 @@
 ######### 锚点 start #######
 # 策略组相关
 pr: &pr {type: select, proxies: [默认,香港,台湾,日本,新加坡,美国,其它地区,全部节点,自动选择,直连]}
+# 定义了一个名为pr的策略组模板，它的类型为select，可选择的代理包括默认、香港、台湾等多个地区和节点。
 
-#这里是订阅更新和延迟测试相关的
+# 这里是订阅更新和延迟测试相关的
 p: &p {type: http, interval: 3600, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 300}}
+# 定义了一个名为p的模板，用于订阅更新和延迟测试。每3600秒更新一次订阅，并每300秒检查一次健康状态。
 
 ######### 锚点 end #######
 
@@ -81,9 +83,10 @@ proxies:
 - name: "直连"
   type: direct
   udp: true
+
 proxy-groups:
   - {name: 默认, type: select, proxies: [自动选择, 直连, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, 全部节点]}
-  - {name: dns, type: select, proxies: [自动选择, 默认, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, 全部节点]}
+  #- {name: dns, type: select, proxies: [自动选择, 默认, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, 全部节点]}
   - {name: Google, <<: *pr}
   - {name: Telegram, <<: *pr}
   - {name: Twitter, <<: *pr}
@@ -101,7 +104,7 @@ proxy-groups:
   - {name: 国内, type: select, proxies: [直连, 默认, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, 全部节点, 自动选择]}
   - {name: 其他, <<: *pr}
 
-  #分隔,下面是地区分组
+  # 分隔,下面是地区分组
   - {name: 香港, type: select , include-all-providers: true, filter: "(?i)港|hk|hongkong|hong kong"}
   - {name: 台湾, type: select , include-all-providers: true, filter: "(?i)台|tw|taiwan"}
   - {name: 日本, type: select , include-all-providers: true, filter: "(?i)日|jp|japan"}
