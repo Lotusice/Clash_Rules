@@ -86,7 +86,7 @@ proxies:
 
 proxy-groups:
   - {name: 默认, type: select, proxies: [自动选择, 直连, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, 全部节点]}
-  #- {name: dns, type: select, proxies: [自动选择, 默认, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, 全部节点]}
+  - {name: dns, type: select, proxies: [自动选择, 默认, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, 全部节点]}
   - {name: Google, <<: *pr}
   - {name: Telegram, <<: *pr}
   - {name: Twitter, <<: *pr}
