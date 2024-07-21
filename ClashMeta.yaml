@@ -17,7 +17,7 @@ proxy-providers:
 
   provider2:
     <<: *p
-    url: "
+    url: ""
 
 ipv6: true
 allow-lan: true
