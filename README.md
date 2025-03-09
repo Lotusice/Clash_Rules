@@ -3,7 +3,8 @@
 
 Fork from：https://gist.github.com/liuran001/5ca84f7def53c70b554d3f765ff86a33
 
-ClashMeta_old.yaml是官方配置改自用，发现一个更好的大佬写的扩充配置config.yaml,弃用ClashMeta_old.yaml
+ClashMeta_RULE-SET.yaml 是官方配置改自用
+config.yaml 发现一个更好的大佬写的扩充配置
 
 
 sub_store.js是一个用在Sub Store的一个替换订阅的脚本，将上面的内容替换成下面的内容：
