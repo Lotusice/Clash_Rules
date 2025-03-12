@@ -1,10 +1,14 @@
 ### 说明
+
+#### 配置一
+ClashMeta_RULE-SET.yaml
 这是一个用于clash meta 核心的配置文件，其于[官方文档](https://wiki.metacubex.one/example/conf/#__tabbed_1_2)修改自用
 
-Fork from：https://gist.github.com/liuran001/5ca84f7def53c70b554d3f765ff86a33
 
-ClashMeta_RULE-SET.yaml 是官方配置改自用
-config.yaml 发现一个更好的大佬写的扩充配置
+#### 配置二
+config.yaml
+发现一个更好的大佬写的扩充配置
+Fork from：https://gist.github.com/liuran001/5ca84f7def53c70b554d3f765ff86a33
 
 
 sub_store.js是一个用在Sub Store的一个替换订阅的脚本，将上面的内容替换成下面的内容：
